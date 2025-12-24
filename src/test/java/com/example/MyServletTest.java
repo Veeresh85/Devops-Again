@@ -1,12 +1,12 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class MyServletTest {
 
     @Test
-    void testExample() {
-        assertTrue(true);
+    public void dummyTest() {
+        assertTrue(true); // A simple test to verify JUnit is working.
     }
 }
